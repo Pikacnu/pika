@@ -2,9 +2,7 @@
 const nextConfig = {
   experimental: {
     output: 'export',
-<<<<<<< Updated upstream
     distDir: ['images','appDir','output','distDir'],
-=======
     images: true,
     modern: true,
     optimizeFonts: true,
@@ -13,7 +11,6 @@ const nextConfig = {
     scrollRestoration: true,
     stats: true,
     workerThreads: true,
->>>>>>> Stashed changes
   },
 }
 
