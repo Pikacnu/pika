@@ -1,16 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
   experimental: {
-    output: 'export',
-    distDir: ['images','appDir','output','distDir'],
-    images: true,
-    modern: true,
-    optimizeFonts: true,
-    optimizeImages: true,
-    optimizeCss: true,
-    scrollRestoration: true,
-    stats: true,
-    workerThreads: true,
+    appDir: true,
   },
 }
 
