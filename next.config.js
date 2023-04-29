@@ -1,9 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    appDir: true,
     output: 'export',
-    distDir: 'dist',
+    distDir: ['images','appDir','output','distDir'],
   },
 }
 
