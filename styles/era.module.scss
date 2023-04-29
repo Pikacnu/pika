@@ -1,0 +1,109 @@
+$font-size: 15px;
+$title-size: calc($font-size * 1.75);
+$light-color: #d8aeae;
+$light-font-color: #000000;
+$light-year-color:#000000;
+$light-thing-color:#003cff;
+
+$dark-color: #000000;
+$dark-font-color: #ffffff;
+$dark-year-color:#ffffff;
+$dark-thing-color:#fff27d;
+
+.light {
+  background-color: $light-color;
+  color: $light-font-color;
+  .year {
+    color: $light-year-color;
+  }
+  .thing {
+    color: $light-thing-color;
+  }
+}
+
+.dark {
+  background-color: $dark-color;
+  color: $dark-font-color;
+  .year {
+    color: $dark-year-color;
+  }
+  .thing {
+    color: $dark-thing-color;
+  }
+}
+
+.root {
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: min-content;
+  width: 100%;
+}
+.era {
+  font-size: $title-size;
+  white-space: nowrap;
+}
+
+
+.timeline {
+  display: block;
+  text-align: center;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-bottom: $font-size;
+}
+
+.event {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 5px;
+}
+.events {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+.timelines {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-items: center;
+}
+
+.textcolumn {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+.thing {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+  .year {
+    @extend .textcolumn;
+    font-size: calc($font-size * 1);
+    margin-bottom: 2px;
+  }
+  .thing {
+    @extend .textcolumn;
+    font-size: calc($font-size * 1);
+  }
+}
+
+.other {
+  @extend .textcolumn;
+  padding-top:calc($font-size * 4);
+  font-size: calc($font-size * 0.95);
+}
+
+.btn{
+  padding: 3px;
+  background-color: white;
+  border: 2px solid #000000;
+  color: black;
+  border-radius: 1000px;
+  img{
+    max-width: 16px;
+    max-height: 16px;
+  }
+}

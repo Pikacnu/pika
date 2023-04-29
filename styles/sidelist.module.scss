@@ -1,0 +1,83 @@
+$font-size:15px;
+$btn-font-size:20px;
+$opacity:1;
+$font-color:#000000;
+
+.root{
+  position: fixed;
+  display: flex;
+  color:$font-color;
+  z-index: 100;
+  pointer-events: none;
+}
+
+.animeaction{
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.open{
+  @extend .animeaction;
+  animation-name: Open;
+}
+.close{
+  @extend .animeaction;
+  animation-name: Close;
+}
+
+.list{
+  pointer-events: auto; 
+  font-size: $font-size;
+  display: flex;
+  flex-direction:row;
+  background-color: chartreuse;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  li{
+    margin: 0.5rem;
+    background-color: #eee;
+    border-radius: 0.5em;
+  }
+  button{
+    position: relative;
+  }
+}
+
+.btn{
+  pointer-events: auto; 
+  font-size: $btn-font-size;
+  padding: 3px;
+  position: absolute;
+  background-color: white;
+  border: 2px solid #000000;
+  color: black;
+  border-radius: 1000px;
+  &:hover{
+    background-color: #000000;
+    color: white;
+  }
+}
+
+@keyframes Open{
+  0%{
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100%{
+    opacity: $opacity;
+    transform: translateX(0);
+  }
+}
+
+@keyframes Close{
+  100%{
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  0%{
+    opacity: $opacity;
+    transform: translateX(0);
+  }
+}
