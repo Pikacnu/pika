@@ -4,7 +4,7 @@ export function useTheme() {
   const [theme, setTheme] = useState(false);
   useEffect(() => {
     const theme = localStorage.getItem('theme');
-    if (theme) setTheme(!!theme);
+    if (theme) setTheme(!!!theme);
   }, []);
   useEffect(() => {
     localStorage.setItem('theme', theme.toString());
