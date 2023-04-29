@@ -126,10 +126,3 @@ export default function Era() {
     </div>
   );
 }
-
-export function metadata() {
-  return {
-    title: 'Timeline',
-    description: 'Test',
-  };
-}
