@@ -4,6 +4,7 @@ $opacity:1;
 $font-color:#000000;
 
 .root{
+  height: 100%;
   position: fixed;
   display: flex;
   color:$font-color;
@@ -31,17 +32,28 @@ $font-color:#000000;
   font-size: $font-size;
   display: flex;
   flex-direction:row;
-  background-color: chartreuse;
+  background-color: rgb(77, 76, 75);
   list-style: none;
   padding: 0;
   margin: 0;
   li{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
     margin: 0.5rem;
-    background-color: #eee;
+    background-color: #7a7a7a;
     border-radius: 0.5em;
-  }
-  button{
+    li{
+      align-items: center;
+    }
+    button{
+    background-color: #7a7a7a;
+    border: 0;
     position: relative;
+    &:hover{
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    }
+    }
   }
 }
 
@@ -51,12 +63,13 @@ $font-color:#000000;
   padding: 3px;
   position: absolute;
   background-color: white;
-  border: 2px solid #000000;
   color: black;
   border-radius: 1000px;
+  border:0;
   &:hover{
     background-color: #000000;
     color: white;
+    outline:0;
   }
 }
 

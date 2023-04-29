@@ -9,7 +9,7 @@ export function Sidelist(props: any) {
     <div className={styles.root}>
       <ul className={`${styles.list} ${open?styles.open:styles.close} row`}>
         <button className={styles.btn} onClick={() => setOpen(!open)}>X</button>
-          <ul className='column'>
+          <ul className={`column ${styles.eralist}`}>
           {props.children}
           </ul>
       </ul>
