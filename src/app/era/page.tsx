@@ -2,7 +2,7 @@
 
 import { Era,Timeline } from '../../../public/era';
 import { Sidelist } from '../../../public/sidelist'
-import '../styles/globals.css'
+import '../../styles/globals.css'
 import { useState } from 'react';
 
 interface List{
