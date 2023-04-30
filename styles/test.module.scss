@@ -1,0 +1,80 @@
+$font-size: 20px;
+
+.body{
+  margin-top: 80px;
+  padding: 20px;
+  .img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}
+
+.cards{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  .card{
+    margin: 20px;
+    font-size: $font-size;
+    background-color:rgb(184, 134, 83);
+    color:white;
+    padding: 0 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.267);
+  }
+}
+
+.bottom{
+  position: fixed;
+  background-color: rgba(240, 248, 255, 0.733);
+  width:100%;
+  left:0;
+  bottom:0;
+  display:flex;
+  flex-direction: row;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.267);
+  max-height: 150px;
+  overflow: hidden;
+  justify-content: space-around;
+  ul{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: none;
+    white-space: pre-wrap;
+    li{
+      margin: 10px;
+    }
+  }
+  .img{
+    object-fit:contain;
+    max-height: 150px;
+    width: min-content;
+  }
+}
+
+.bottomfill{
+  height: 150px;
+  width:100%;
+}
+
+.faq{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    li{
+      margin: 10px 0;
+    }
+  }
+  .question{
+    background-color:rgba(255, 192, 203, 0.336);
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+}

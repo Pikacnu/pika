@@ -1,0 +1,40 @@
+.navbar{
+  top:20px;
+  position: fixed;
+  width: calc(100% - 60px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0 20px;
+  height: 60px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-size:20px;
+  ul{
+    display: flex;
+    list-style: none;
+    li{
+      margin-left: 20px;
+      .link{
+        padding: 10px;
+        text-decoration: none;
+        color: #000;
+        transition: all 0.3s ease-in-out;
+        border-radius: 100px;
+        &:hover{
+          color: rgb(65, 65, 65);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.267);
+        }
+      }
+    }
+  }
+}
+
+.icon{
+  position: relative;
+  max-width: fit-content;
+  max-height: fit-content;
+  height: 30px;
+}
