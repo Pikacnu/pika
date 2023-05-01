@@ -50,66 +50,14 @@ export default function Test() {
 				<ul>
 					<li>
 						<div className={styles.question}>
-							<h2>How Does It Work?</h2>
-							<p>Idk!</p>
-						</div>
-					</li>
-					<li>
-						<div className={styles.question}>
-							<h2>How Does It Work?</h2>
-							<p>Idk!</p>
-						</div>
-					</li>
-					<li>
-						<div className={styles.question}>
-							<h2>How Does It Work?</h2>
-							<p>Idk!</p>
-						</div>
-					</li>
-					<li>
-						<div className={styles.question}>
-							<h2>How Does It Work?</h2>
-							<p>Idk!</p>
-						</div>
-					</li>
-					<li>
-						<div className={styles.question}>
-							<h2>How Does It Work?</h2>
-							<p>Idk!</p>
-						</div>
-					</li>
-					<li>
-						<div className={styles.question}>
-							<h2>How Does It Work?</h2>
-							<p>Idk!</p>
+							<h2>Why You do this?</h2>
+							<p>For review history of my test and share to my friend</p>
 						</div>
 					</li>
 				</ul>
 			</div>
 
-			<div className={styles.bottom}>
-				<ul>
-					<li>info</li>
-					<li>info</li>
-					<li>info</li>
-					<li>info</li>
-					<li>info</li>
-					<li>info</li>
-				</ul>
-				<Image
-					src={img1}
-					alt='img'
-					className={styles.img}
-				></Image>
-				<ul>
-					<li>info</li>
-					<li>info</li>
-					<li>info</li>
-					<li>info</li>
-					<li>info</li>
-					<li>info</li>
-				</ul>
-			</div>
+			<div className={styles.bottom}></div>
 			<div className={styles.bottomfill}></div>
 		</>
 	);

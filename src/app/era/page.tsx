@@ -217,108 +217,214 @@ export default function Era() {
 			],
 		},
 		{
-			dataname: '中國古代',
-			data: [
+			dataname:'冷戰 ( From AI 可能不準#)',
+			data:[
 				{
-					eraname: '夏商周',
-					describe: '黃河流域',
+					eraname: '冷戰',
+					describe: '',
 					thing: [
 						{
-							date: new Date(-2100),
-							thing: '夏朝建立',
-							other: [
-								'夏朝是中國歷史上的第一個王朝',
-								'夏朝的首都在今天的河南省安陽市',
-							],
+							date: new Date('1945'),
+							thing: '雅爾達會議',
+							other: ['大三領袖', '東西方勢力範圍'],
 						},
 						{
-							date: new Date(1046),
-							thing: '周朝建立',
-							other: [
-								'周朝是中國歷史上最長的一個王朝',
-								'周朝的統治者實行封建制度，進行了大規模的土地分配',
-							],
-						},
-					],
-				},
-				{
-					eraname: '春秋戰國',
-					describe: '華夏大地',
-					thing: [
-						{
-							date: new Date(770),
-							thing: '春秋時期開始',
-							other: [
-								'春秋時期是中國歷史上的一個時期，時間大約為公元前770年到公元前476年',
-								'春秋時期是中國分裂時期的開端',
-							],
+							date: new Date('1946'),
+							thing: '美國提出杜魯門主義',
+							other: ['反共', '美國經濟援助'],
 						},
 						{
-							date: new Date(475),
-							thing: '戰國時期開始',
-							other: [
-								'戰國時期是中國歷史上的一個時期，時間大約為公元前475年到公元前221年',
-								'戰國時期是中國分裂時期的高峰期',
-							],
-						},
-					],
-				},
-				{
-					eraname: '秦漢唐宋元明清',
-					describe: '中國各地',
-					thing: [
-						{
-							date: new Date(221),
-							thing: '秦朝統一中國',
-							other: [
-								'秦朝是中國歷史上的一個短暫王朝，時間大約為公元221年到公元207年',
-								'秦始皇統一了六國，建立了中央集權制度',
-							],
+							date: new Date('1947'),
+							thing: '杜魯門主義',
+							other: ['美國經濟援助', '反共'],
 						},
 						{
-							date: new Date(618),
-							thing: '唐朝建立',
-							other: [
-								'唐朝是中國歷史上的一個強盛王朝，時間大約為公元618年到公元907年',
-								'唐朝的政治、經濟、文化和藝術等方面都取得了巨大的成就',
-							],
+							date: new Date('1947'),
+							thing: '馬歇爾計畫',
+							other: ['美國經濟援助', '反共'],
 						},
 						{
-							date: new Date(960),
-							thing: '宋朝建立',
-							other: [
-								'宋朝是中國歷史上的一個王朝，時間大約為公元960年到公元1279年',
-								'宋朝的特點是科技、商業、文化、藝術等方面的繁榮',
-							],
+							date: new Date('1948'),
+							thing: '柏林封鎖',
+							other: ['東西柏林分裂', '西方空運'],
 						},
 						{
-							date: new Date(1271),
-							thing: '元朝建立',
-							other: [
-								'元朝是中國歷史上的一個蒙古王朝，時間大約為公元1271年到公元1368年',
-								'元朝的統治者是成吉思汗的後代，實行行省制度和科舉制度',
-							],
+							date: new Date('1949'),
+							thing: '北約組織成立',
+							other: ['美國主導', '反共'],
 						},
 						{
-							date: new Date(1368),
-							thing: '明朝建立',
-							other: [
-								'明朝是中國歷史上的一個王朝，時間大約為公元1368年到公元1644年',
-								'明朝的特點是政治穩定、經濟繁榮、文化發展和科技進步',
-							],
+							date: new Date('1949'),
+							thing: '中國內戰',
+							other: ['國民黨敗退台灣', '中華人民共和國成立'],
 						},
 						{
-							date: new Date(1644),
-							thing: '清朝建立',
-							other: [
-								'清朝是中國歷史上的最後一個封建王朝，時間大約為公元1644年到1912年',
-								'清朝的特點是社會穩定、對外侵略、政治腐敗、經濟落後和文化沉淀',
-							],
+							date: new Date('1950'),
+							thing: '朝鮮戰爭',
+							other: ['北韓入侵南韓', '聯合國支援南韓'],
 						},
-					],
-				},
-			],
+						{
+							date: new Date('1950'),
+							thing: '中國介入朝鮮戰爭',
+							other: ['中國支援北韓', '美國支援南韓'],
+						},
+						{
+							date: new Date('1953'),
+							thing: '朝鮮戰爭停戰',
+							other: ['三八線', '南北韓分裂'],
+						},
+						{
+							date: new Date('1955'),
+							thing: '華沙條約組織成立',
+							other: ['蘇聯主導', '反北約'],
+						},
+						{
+							date: new Date('1955'),
+							thing: '東歐國家蘇聯化',
+							other: ['蘇聯主導', '反北約'],
+						},
+						{
+							date: new Date('1956'),
+							thing: '匈牙利事件',
+							other: ['匈牙利反蘇', '蘇聯鎮壓'],
+						},
+						{
+							date: new Date('1959'),
+							thing: '古巴革命',
+							other: ['古巴共產黨', '美國封鎖'],
+						},
+						{
+							date: new Date('1961'),
+							thing: '古巴飛彈危機',
+							other: ['蘇聯飛彈基地', '美國封鎖'],
+						},
+						{
+							date: new Date('1962'),
+							thing: '中印邊境戰爭',
+							other: ['中國勝利', '中國核武器'],
+						},
+						{
+							date: new Date('1964'),
+							thing: '中國核武器',
+							other: ['中國勝利', '中國核武器'],
+						},
+						{
+							date: new Date('1968'),
+							thing: '捷克事件',
+							other: ['捷克反蘇', '蘇聯鎮壓'],
+						},
+						{
+							date: new Date('1972'),
+							thing: '美國尼克森訪問中國',
+							other: ['中美關係正常化', '中國反蘇'],
+						},
+						{
+							date: new Date('1975'),
+							thing: '越南戰爭',
+							other: ['美國撤軍', '越南統一'],
+						},
+						{
+							date: new Date('1979'),
+							thing: '中國改革開放',
+							other: ['鄧小平', '經濟改革'],
+						},
+						{
+							date: new Date('1980'),
+							thing: '波蘭事件',
+							other: ['波蘭反蘇', '蘇聯鎮壓'],
+						},
+						{
+							date: new Date('1985'),
+							thing: '蘇聯戈巴契夫上台',
+							other: ['蘇聯改革', '蘇聯解體'],
+						},
+						{
+							date: new Date('1989'),
+							thing: '柏林圍牆倒塌',
+							other: ['東西德統一', '東歐國家蘇聯化'],
+						},
+						{
+							date: new Date('1991'),
+							thing: '蘇聯解體',
+							other: ['蘇聯解體', '俄羅斯獨立'],
+						},
+						{
+							date: new Date('1997'),
+							thing: '香港回歸',
+							other: ['香港回歸', '中英聯合聲明'],
+						},
+						{
+							date: new Date('1999'),
+							thing: '澳門回歸',
+							other: ['澳門回歸', '中葡聯合聲明'],
+						},
+						{
+							date: new Date('2017'),
+							thing: '中國一帶一路',
+							other: ['中國一帶一路', '經濟改革'],
+						}
+					]
+				}
+			]
 		},
+		{
+			dataname:'西方歷史',
+			data:[{
+				eraname:'上古',
+				describe:'',
+				thing:[
+					{date : new Date('0753'),thing:'王政時期',other:['國王統治'],minus :true},
+					{date : new Date('0533'),thing:'波斯帝國',other:['橫跨歐亞非三洲'],minus :true},
+					{date : new Date('0509'),thing:'共和時期',other:['元老院決策','執政官執政','晚期獨裁官執政'],minus :true},
+					{date : new Date('0400'), thing: '馬其頓統一希臘城邦' ,minus :true}, 
+					{date : new Date('0334'), thing: '亞歷山大東征', other: ['征服西亞、埃及、波斯', '建立跨越歐亞非帝國(第一個)',"建立希臘化城市","產生希臘化文化","歐幾里得·幾何原本","阿基米德"],minus :true},
+					{date : new Date('0027'),thing:'帝國時期',other:['屋大維結束內戰','展開200年羅馬和平'],minus :true},
+					{date : new Date('0001'),thing:'基督教創立',other:['耶和華一神信仰','被迫害']},
+					{date : new Date('313'),thing:'基督教合法',other:['君士坦丁','米蘭敕令']},
+					{date : new Date('380'),thing:'基督教國教化',other:['狄奧多西一世','薩洛尼卡赦令']},
+					{date : new Date('395'),thing:'東西羅馬',other:['日耳曼人入侵','分裂東西羅馬帝國','狄奧多溪掌權']},
+					{date : new Date('476'),thing:'西羅馬帝國滅亡',other:['日耳曼入侵','進入中古']},
+				]
+			},{
+				eraname:'中古',
+				describe:'',
+				thing:[
+					{date : new Date('527'),thing:'東羅馬帝國',other:['查士丁尼一世','拜占庭帝國','東正教']},
+					{date : new Date('610'),thing:'伊斯蘭教',other:['穆罕默德','麥加','開始伊斯蘭教']},
+					{date : new Date('632'),thing:'阿拉伯帝國',other:['伊斯蘭教向外擴張','工商業發達','抄寫古(希臘、羅馬)籍']},
+					{date : new Date('750'),thing:'阿拉伯帝國統治範圍擴大',other:['橫跨歐亞非']},
+					{date : new Date('962'),thing:'神聖羅馬帝國',other:['東法蘭克','奧托一世','教皇加冕']},
+					{date : new Date('1037'),thing:'塞爾柱土耳其',other:['塞爾柱帝國成立']},
+					{date : new Date('1054'),thing:'東西教會分裂',other:['教會分裂','東正教','天主教']},
+					{date : new Date('1095'),thing:'十字軍東征',other:['教宗呼籲','十字軍東征','耶路撒冷王國']},
+					{date : new Date('1194'),thing:'塞爾柱帝國滅亡',other:['亡於蒙古人']},
+					{date : new Date('1299'),thing:'鄂圖曼土耳其帝國出現'},
+					{date : new Date('1204'),thing:'第四次十字軍東征',other:['十字軍東征','佔領君士坦丁堡','建立拉丁帝國']},
+					{date : new Date('1401'),thing:'文藝復興',other:['人文主義、方言文學','(義大利 : 但丁、佩脫拉克、薄伽丘)','(英國:莎士比亞)','畫作不再限於宗教題材','(達文西、拉斐爾、米開朗基羅)','義大利北部','阿拉伯保存古籍','印刷術']},
+					{date : new Date('1453'),thing:'君士坦丁堡陷落',other:['鄂圖曼土耳其','君士坦丁堡陷落','東羅馬帝國滅亡']},
+				]},
+				{
+					eraname:'近代',
+					describe:'',
+					thing:[
+					{date : new Date('1486'),thing:'發現好望角',other:['狄亞士','風暴角']},
+					{date : new Date('1492'),thing:'哥倫布發現美洲',other:['哥倫布','發現美洲']},
+					{date : new Date('1497'),thing:'達伽馬抵達印度',other:['開通新航路']},
+					{date : new Date('1494'),thing:'葡、西瓜分美洲',other:['托德西利雅斯條約','西班牙獲得美洲','葡萄牙獲得非洲','亞洲海路']},
+					{date : new Date('1517'),thing:'宗教改革',other:['馬丁路德','宗教改革','路德教派:','(因信的就得救)','喀爾文教派:','(上帝預先定好誰得救)','英國國教會:','(亨利八世，婚姻問題)','舊教:','(羅耀拉推耶穌會改革天主教)','(重視教綠和知識訓練)','(海外傳教)','基督教二次分裂','對抗教會:','強化民族意識發動戰爭']},
+					{date : new Date('1521'),thing:'麥哲倫船員環繞地球一周',other:['麥哲倫死於菲律賓部落衝突']},
+					{date : new Date('1571'),thing:'東西教會和解',other:['教會和解','東正教','天主教']},
+					{date : new Date('1618'),thing:'三十年戰爭',other:['三十年戰爭','德國','宗教戰爭']},
+					{date : new Date('1648'),thing:'三十年戰爭結束',other:['三十年戰爭','德國','宗教戰爭']},
+					{date : new Date('1770'),thing:'英國宣布擁有澳大利亞主權',other:['流放犯人','迫害原住民']},
+					{date : new Date('1748'),thing:'愛德華·詹寧斯',other:['愛德華·詹寧斯','英國','工業革命']},
+					{date : new Date('1776'),thing:'美國獨立戰爭',other:['美國獨立戰爭','美國']},
+					{date : new Date('1789'),thing:'法國大革命',other:['法國大革命','法國']},
+					{date : new Date('1804'),thing:'拿破崙一世加冕',other:['拿破崙一世','法國']},
+				],
+			},
+		]
+		}
 	];
 
 	const [data, setdata] = useState(era[0].data);
